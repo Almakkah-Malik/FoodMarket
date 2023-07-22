@@ -1,0 +1,615 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.container{
+    margin-top: 35px;
+    background-image: url("../food-website/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+ 
+
+}
+
+
+
+
+.header-item{
+display: flex;
+width: 100%;
+}
+
+.logo{
+margin-left: 70px;
+
+}
+
+.header-item .menu {
+margin-left: 300px;
+margin-top: 30px;
+
+
+}
+
+.menu-item{
+    position: relative;
+   
+}
+
+.menu-item ul{
+    display: flex;
+
+}
+
+.menu-item ul li a{
+    margin-left: 45px;
+    display: flex;
+    font-size: 15px;
+    transition: all .5s ease;
+    font-weight: bold;
+
+}
+li{
+    list-style: none;
+}
+
+
+.menu-item ul li a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #5fb11c;
+    transition: all .4s ease;
+    bottom: 0;
+    top: 18px;
+    margin-left: 1px;
+}
+
+.menu-item ul li a{
+    position: relative;
+}
+
+
+.menu-item ul li a:hover::after{
+    width: 100%;
+    background: #5fb11c;
+}
+
+/* ################## slider-content ################# */
+.slider-content{
+line-height: 90px;
+margin: 140px 100px;
+}
+
+.slider-content h1{
+font-size: 55px;
+}
+
+.slider-content h2{
+font-size: 55px;
+color: rgb(44, 99, 19);
+}
+
+.btn{
+    padding: 14px 40px;
+    border: 2px solid rgb(12, 143, 12);
+    font-weight: bold;
+    transition: all .4s;
+}
+
+.btn:hover{
+   background :rgb(37, 124, 15);
+   color: white;
+
+}
+
+
+
+
+
+/* #################farm####################### */
+
+.intro-container{
+
+
+margin-left: 200px;
+
+
+}
+
+.farm{
+    display: flex;
+
+}
+
+.farm-img{
+   
+  
+
+}
+
+.farm-content{
+   margin-top: 95px;
+   width: 40%;
+   margin-left: 30px;
+  
+}
+
+.farm-content h1{
+    margin-bottom: 8px;
+    font-size: 40px;
+
+}
+
+.farm-content p{
+  
+    color: rgb(53, 51, 51);
+    line-height: 24px;
+}
+.farm-intro{
+    margin-top: 6px;
+    line-height: 25px;
+}
+.about-farm{
+    display: flex;
+    
+}
+
+.farm-intro h4{
+   padding-left: 10px;
+}
+
+
+
+.farm-intro p{
+    padding-left: 10px;
+ }
+
+.leave .material-icons{
+    border-radius: 24px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 25px;
+    background: #5fb11c;
+    color: white;
+}
+
+.food  .fa-handshake-o{
+    border-radius: 24px;
+    margin-top: 15px;
+    padding: 12px 7px;
+    font-size: 25px;
+    background: #df7116;
+    color: white;
+}
+.basket .material-icons{
+    border-radius: 24px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 25px;
+    background: #b1261c;
+    color: white;
+}
+
+.btn-primary{
+ margin-left: 54px;
+
+}
+
+.btn-2{
+    font-size: 15px;
+    line-height: 80px;
+    border-radius: 20px;
+    padding: 13px 24px;
+    background: #5fb11c;
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+
+.btn-2:hover{
+    background : white;
+    color: #226d04;
+    border: 1px solid #226d04;
+ 
+ }
+/* 
+ ############### product####################### */
+
+ .item-container{
+margin-top: 70px;
+margin-bottom: 100px;
+ }
+
+ .title{
+    font-size: 23px;
+    text-align: center;
+}
+
+.item-title ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+ 
+}
+
+.item-title li a{
+    color: rgb(61, 60, 60);
+  
+}
+
+.item-title li{
+    padding: 15px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+   
+}
+
+.item-title .active a{
+    color: #226d04;
+}
+
+
+li a:hover{
+    color: #226d04;
+}
+
+
+
+
+.card-parent{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+    }
+
+
+.card{
+    box-shadow: 0px 5px 5px 5px rgba(228, 226, 226, 0.685);
+    margin-left: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+     
+    .card-img img{
+        width: 340px;
+        height: 320px;
+    }
+    
+.content{
+    line-height: 40px;
+    padding: 15px;
+    transform: all .5s ease;
+}
+
+.content h1 a{
+    transition: all .4s ease;
+}
+.content h1 a:hover{
+    color: #3daf10;
+}
+
+.content span{
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: bold;
+}
+   
+   .btn-3{
+       font-size: 15px;
+       line-height: 50px;
+       border-radius: 20px;
+       padding: 13px 24px;
+       background: #5fb11c;
+       color: white;
+       font-weight: bold;
+       transition: all 1s ease;
+   }
+   
+   
+   .btn-3:hover{
+       background : white;
+       color: #226d04;
+       border: 1px solid #226d04;
+    
+    }
+
+/* 
+##############footer#################### */
+
+.footer-container{
+    background: #e7e7e6fb;
+    margin-top: 30px;
+    padding: 50px 60px 60px;
+}
+
+.footer-content{
+    text-align: center;
+    line-height: 50px;
+}
+
+.icon i{
+    margin-left: 15px;
+    transition: all .5s ease;
+}
+.icon a i{
+
+ font-size: 30px;
+}
+ .fa-facebook{
+    border-radius: 30px;
+    padding: 8px 15px;
+    background: #3b5998;
+    text-align: center;
+    color: white;
+    
+ }
+
+ .fa-twitter{
+    border-radius: 30px;
+    padding: 8px 10px;
+    background: white;
+    text-align: center;
+    color: #00ACEE;
+
+ }
+ .fa-instagram{
+    border-radius: 30px;
+    padding: 8px 12px;
+    background: #b33da9;
+    text-align: center;
+    color: white;
+ }
+
+ .fa-pinterest-p{
+    border-radius: 30px;
+    padding: 8px 12px;
+    background: #C82328;
+    text-align: center;
+    color: white;
+ }
+
+
+ .footer-bottom{
+color: rgb(15, 13, 13);
+ }
+
+ b:hover{
+    color: darkgreen;
+ }
+
+ .icon i:hover{
+    background: white;
+    color: #226d04;
+ }
+
+
+
+ /* #####################product-page############### */
+ .header-item{
+    display: flex;
+    width: 100%;
+    }
+    
+    .logo-1{
+    margin-left: 70px;
+    margin-top: 35px;
+    }
+    
+    .header-item .page-menu{
+    margin-left: 300px;
+    margin-top: 25px;
+    
+    
+    }
+    
+    .menu-1{
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .menu-1 ul{
+        display: flex;
+       
+    }
+    
+    .menu-1 ul li a{
+        margin-left: 45px;
+        display: flex;
+        font-size: 15px;
+        transition: all .5s ease;
+        font-weight: bold;
+    
+    }
+    li{
+        list-style: none;
+    }
+    
+    .menu-1 ul li a::after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background: #5fb11c;
+        transition: all .4s ease;
+        bottom: 0;
+        top: 18px;
+        margin-left: 1px;
+    }
+    
+    .menu-1 ul li a{
+        position: relative;
+    }
+    
+    
+    .menu-1 ul li a:hover::after{
+        width: 100%;
+        background: #5fb11c;
+    }
+    
+
+
+/* 
+####################product################ */
+
+
+.product-container{
+    margin-top: 20px;
+    background-image: url("../food-website/img/section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    width: 100%;
+    position: relative;
+
+}
+
+.product-content{
+position: absolute;
+top: 32%;
+left: 25%;
+background: white;
+border: 1px solid white;  
+padding: 50px 40px;
+text-transform: uppercase; 
+}
+
+    .product-content a h1{
+    font-size: 50px;
+     }
+
+    
+     .product-content:hover{
+      
+        background: rgba(235, 230, 222, 0);
+        border: none;
+     }
+
+/* 
+
+     ###########################contact us################## */
+
+     .form-container{
+       
+        margin-top: 100px;
+        margin-bottom: 60px;
+     }
+       .form-title{
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 45px;
+        font-family: 'Times New Roman', Times, serif;
+       }
+     form{
+        text-align: center;
+        line-height: 50px;
+        
+     }
+     .input{
+        line-height: 70px;
+     }
+     .input input{
+        border: #226d04 1px solid;
+        outline: none;
+        border: none;
+        background: rgb(238, 238, 240);
+        width: 35%;
+        line-height: 43px;
+        border-radius: 20px;
+        padding-left: 20px;
+      
+     }
+
+     .text-area{
+        margin-top: 10px;
+     }
+     .text-area textarea{
+        border: none;
+        outline: none;
+        background: rgb(238, 238, 240);
+        border-radius: 10px;
+        padding: 20px 20px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(97, 95, 95);
+       
+     }
+
+     .submit input{
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background: #226d04;
+        color: white;
+        padding: 12px 55px;
+        font-weight: bold;
+     }
+
+     .submit input:hover{
+        color: #226d04;
+        border: 2px solid #226d04;
+        background: white;
+     }
+
+
+     /* #################organic page############### */
+
+
+     .detail-container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+     }
+
+     .serving-organic{
+        display: flex;
+      
+        justify-content: center;
+     }
+
+.item-img img{
+    border-radius: 15px;
+}
+
+     .detail-content{
+        width: 30%;
+        margin-left: 25px;
+     }
+
+
+     .detail-content h1{
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+
+     .detail-content p{
+        line-height: 30px;
+        margin-top: 10px;
+        word-spacing: 1px;
+     }
